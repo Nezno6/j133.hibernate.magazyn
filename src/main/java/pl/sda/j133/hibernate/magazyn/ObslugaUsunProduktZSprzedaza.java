@@ -6,10 +6,10 @@ import org.hibernate.Transaction;
 import pl.sda.j133.hibernate.magazyn.model.Produkt;
 import pl.sda.j133.hibernate.magazyn.model.Sprzedaz;
 
-public class ObslugaUsunProduktZSprzedaza implements ObslugaKomendy{
+public class ObslugaUsunProduktZSprzedaza implements ObslugaKomendy {
     @Override
     public String getKomenda() {
-            return "usun produkt";
+        return "usun produkt";
     }
 
     @Override
